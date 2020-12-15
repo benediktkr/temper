@@ -1,8 +1,11 @@
 [tool.poetry]
-name = "temper"
+name = "sudoistemper"
 version = "0.1.0"
 description = ""
-authors = ["urwen"]
+authors = ["urwen", "bendiktkr"]
+packages = [
+    { include = "temper" }
+]
 
 [tool.poetry.dependencies]
 python = "^3.7"
